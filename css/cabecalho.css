@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+.cabecalho {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    max-width: 80px;
+}
+
+.cabecalho__menu::before {
+    content: "\e904";
+}
+    
