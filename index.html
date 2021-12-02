@@ -10,12 +10,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <button class="cabecalho__menu"></button>
-        <img src="img/nexus-logo.svg" alt="Logo da Nexus" class="cabecalho__logo">
-        <button class="cabecalho__notificacao">Notificações</button>
+    <header class="cabecalho container">
+        <button class="cabecalho__menu" aria-label="Botão de menu"><i></i></button>
+        <img src="img/nexus-logo-1.png" alt="Logo da Nexus" class="cabecalho__logo">
+        <button class="cabecalho__notificacao" aria-label="Botão de notificação"><i></i></button>
     </header>
+    <nav class="menu__lateral">
+        <img src="img/nexus-logo-1.png" alt="Logo da Nexus" class="menu__lateral-logo">
+        <button class="menu__lateral-login">Login</button>
+        <a href="#" class="menu__lateral-link menu__lateral-link--inicio menu__lateral-link--ativo">Home</a>
+        <a href="#" class="menu__lateral-link menu__lateral-link--videos">Vídeos</a>
+        <a href="#" class="menu__lateral-link menu__lateral-link--produtos">Produtos</a>
+        <a href="#" class="menu__lateral-link menu__lateral-link--contato">Contato</a>
+    </nav>
+    <script src="js/index.js"></script>
+    <main>
+
+    </main>
 </body>
 </html>

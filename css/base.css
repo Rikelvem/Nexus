@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body {
+    background-color: var(--bg-corpo);
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: var(--branco);
+}
+
+:root {
+    --branco: #f2f2f2;
+    --cinza: #95999C;
+    --preto: #080808;
+
+    --sky: #47F3FF;
+    --lima: #6DFA57;
+    --tomato: #ff6347;
+    --vermelho-logo: #7A0E0C;
+
+    --bg-corpo: #333333;
+    --bg-cabecalho: #171717;
+
+    --montserrat-sans: 'Montserrat', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
