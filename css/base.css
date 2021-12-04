@@ -30,3 +30,14 @@ body {
     padding-left: 6%;
     padding-right: 6%;
 }
+
+.principal {
+    padding: 24px 16px;
+    display: grid;
+    gap: 16px;
+}
+
+.titulo__pagina {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
